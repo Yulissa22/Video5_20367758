@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Video5_20367758.MainPage">
+
+    <StackLayout Margin="20,35,20,20">
+        <!--Creamos un boton al que le asignamos color, bordes, un ancho y un alto
+        "CornerRadius" establece el radio en este caso las esquinas del boton
+        lo que le da la apariencia redonda.-->
+        <Button Text="CLICK HERE"
+                TextColor="AntiqueWhite"
+                BackgroundColor="Indigo"
+                BorderColor="BlanchedAlmond"
+                BorderWidth="3"
+                CornerRadius="20"
+                WidthRequest="100"
+                HeightRequest="60"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
